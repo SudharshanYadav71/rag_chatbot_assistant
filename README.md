@@ -3,7 +3,6 @@
 A **full-stack Retrieval-Augmented Generation chatbot** built with FastAPI + Anthropic Claude.  
 Upload documents, ask questions, and get grounded answers with source attribution.
 
----
 
 ## 📁 Project Structure
 
@@ -16,7 +15,6 @@ rag-chatbot/
     └── index.html        ← Single-file frontend (open in browser)
 ```
 
----
 
 ## ⚡ Quick Start
 
@@ -25,29 +23,23 @@ Sign up at https://console.anthropic.com and create a key.
 
 ### 2. Set up the backend
 
+
+## 📌 GitHub Repository
+
+Target repository: [SudharshanYadav71/rag_chatbot_assistant](https://github.com/SudharshanYadav71/rag_chatbot_assistant)
+
+That GitHub repository is currently empty, so this workspace contains the project source. If you want to publish this code there, initialize git in this folder and push to that remote:
+
 ```bash
-cd backend
-
-# Create virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set your API key
-export ANTHROPIC_API_KEY=sk-ant-...  # Windows: set ANTHROPIC_API_KEY=sk-ant-...
-
-# Start the server
-python main.py
-# → running on http://localhost:8000
+git init
+git remote add origin https://github.com/SudharshanYadav71/rag_chatbot_assistant.git
+git add .
+git commit -m "Initial project import"
+git branch -M main
+git push -u origin main
 ```
 
-### 3. Open the frontend
-
-Just open `frontend/index.html` in your browser — **no build step needed**.
-
-```bash
+---
 # Mac
 open frontend/index.html
 
@@ -162,6 +154,26 @@ and set the API URL to `http://<machine-ip>:8000`.
 
 ---
 
+<<<<<<< HEAD
+=======
+## 📌 GitHub Repository
+
+Target repository: [SudharshanYadav71/rag_chatbot_assistant](https://github.com/SudharshanYadav71/rag_chatbot_assistant)
+
+That GitHub repository is currently empty, so this workspace contains the project source. If you want to publish this code there, initialize git in this folder and push to that remote:
+
+```bash
+git init
+git remote add origin https://github.com/SudharshanYadav71/rag_chatbot_assistant.git
+git add .
+git commit -m "Initial project import"
+git branch -M main
+git push -u origin main
+```
+
+---
+
+>>>>>>> 607b36e5c2a960f1d6c78aed0e59b6b8853331cd
 ## 🛠 Extending the Project
 
 | Feature | How |
@@ -191,3 +203,7 @@ and set the API URL to `http://<machine-ip>:8000`.
 ---
 
 Made for internship project demo. MIT License.
+<<<<<<< HEAD
+=======
+# rag_chatbot_assistant
+>>>>>>> 607b36e5c2a960f1d6c78aed0e59b6b8853331cd
